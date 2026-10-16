@@ -1,0 +1,10 @@
+# ============================================
+# Git Ignore - GitHub Profile Repository
+# ============================================
+
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+.idea/
+.vscode/
