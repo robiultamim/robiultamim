@@ -193,29 +193,6 @@ Throughout my academic journey and professional engagements, I have focused on s
 
 ---
 
-## 📊 GitHub Analytics & Activity
-
-<div align="center">
-
-<table border="0">
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=robiultamim&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%" alt="Robiul's GitHub Stats" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=robiultamim&layout=compact&theme=tokyonight&hide_border=true" width="100%" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=robiultamim&theme=tokyonight&hide_border=true" width="95%" alt="GitHub Streak Stats" />
-</p>
-
-</div>
-
----
-
 ## 💬 Get in Touch
 
 I am always eager to collaborate on innovative open-source projects, academic research, and engineering opportunities. Feel free to connect!
