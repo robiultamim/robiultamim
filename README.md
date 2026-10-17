@@ -25,16 +25,18 @@
 
 ## 📌 About Me
 
-I am a final-year **Computer Science & Engineering** student at **United International University (UIU)**, graduating in **October 2026**. My core passions lie at the intersection of **Artificial Intelligence (NLP & LLMs)**, **Software Engineering**, and **Embedded IoT Systems**. 
+I am a final-year **Computer Science & Engineering** student at **United International University (UIU)**, graduating in **October 2026**. My core passions lie at the intersection of **Artificial Intelligence (NLP, Computer Vision & Edge AI)**, **DevSecOps & Cloud Security**, and **Embedded IoT Systems**. 
 
-Throughout my academic journey and professional engagements, I have focused on solving real-world challenges — from pioneering **hallucination detection in Bengali Large Language Models** and building **low-cost airborne CanSat telemetry frameworks**, to developing **enterprise-grade agile project management platforms** and **IoT-based smart assistive systems for elderly living**.
+Throughout my academic journey and professional engagements, I have focused on solving high-impact engineering and research challenges — from pioneering **hallucination detection in Bengali Large Language Models** and deploying **TinyML Quantization-Aware Federated Learning (QAF-Net) for clinical neuroimaging**, to architecting **heterogeneous GNN-powered cloud misconfiguration detection engines** and **low-cost airborne CanSat telemetry frameworks**.
 
 ### 🔍 Quick Highlights
-- 🔬 **Undergraduate Research:** Researched and benchmarked **Factual Hallucination Detection in Generative AI for Bengali Text** using fine-tuned transformer models (**BanglaBERT** and **mBERT**), curating a 7,043-sample multi-LLM benchmark across GPT, Gemini, and Claude.
-- 🛰️ **Embedded & Aerospace IoT:** Co-engineered an AI-driven **CanSat Atmospheric Profiling & Microclimate Monitoring Framework** integrating multi-sensor arrays, XBee wireless telemetry, and satellite earth observation data fusion.
+- 🔬 **Bengali NLP & LLM Robustness:** Researched and benchmarked **Factual Hallucination Detection in Generative AI for Bengali Text** using fine-tuned transformer models (**BanglaBERT** and **mBERT**), curating a 7,043-sample multi-LLM benchmark across GPT, Gemini, and Claude.
+- 🧠 **Medical Edge AI & Federated Learning:** Co-engineered **[QAF-Net](https://github.com/robiultamim/QAF-Net-Brain-Tumor-MRI-Classification)**, an ultra-compact (606 KB INT8) TinyML cross-dataset brain tumor MRI classification pipeline utilizing site-local normalization and exposing 55.2% near-duplicate leakage in global Kaggle benchmarks.
+- ☁️ **Cloud Security & DevSecOps:** Designed the **[Intelligent Cloud Misconfiguration Detection & Automated Remediation](https://github.com/robiultamim/Intelligent-Cloud-Misconfiguration-Detection-and-Automated-Remediation)** framework uniting 64-D AST projections, Heterogeneous Threat Graphs (R-GCN), and calibrated ML-LLM triage for Kubernetes and AWS workloads.
+- 🛰️ **Embedded & Aerospace IoT:** Co-engineered an AI-driven **[CanSat Microclimate Monitoring Framework](https://github.com/robiultamim/AI-Driven-CanSat-Microclimate-Monitoring)** integrating multi-sensor arrays, XBee wireless telemetry, and satellite earth observation data fusion.
 - 💼 **Professional Experience:** Hands-on experience as a **Data Labelling Associate** and **Image Annotator** at *ARC Annotation*, specializing in polygon, bounding-box, and semantic segmentation quality assurance.
 - 🏛️ **Leadership & Community:** Former Executive at **UIU App Forum** (2022–2023), coordinating campus technical seminars, collaborative workshops, and student development initiatives.
-- 🎯 **Career Interests:** Software Development, Artificial Intelligence & Machine Learning, Software Quality Assurance (SQA), and Technology Research.
+- 🎯 **Career Interests:** Software Engineering, Machine Learning Research, DevSecOps / Cloud Security, and Software Quality Assurance (SQA).
 
 ---
 
@@ -57,11 +59,22 @@ Throughout my academic journey and professional engagements, I have focused on s
     <td><b>AI, ML & NLP</b></td>
     <td>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/TensorFlow%20%2F%20TFLite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+      <img src="https://img.shields.io/badge/TinyML-00B0FF?style=flat-square&logo=arm&logoColor=white" />
+      <img src="https://img.shields.io/badge/Federated%20Learning-4A154B?style=flat-square" />
       <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-      <img src="https://img.shields.io/badge/Transformers-FF6F00?style=flat-square&logo=google&logoColor=white" />
       <img src="https://img.shields.io/badge/BanglaBERT-2E7D32?style=flat-square&logo=meta&logoColor=white" />
       <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-      <img src="https://img.shields.io/badge/Data%20Annotation-Polygon%20%7C%20Bounding%20Box-blue?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Cloud & DevSecOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS%20IAM%20%2F%20SAM-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/AST%20Analysis-7952B3?style=flat-square" />
+      <img src="https://img.shields.io/badge/Heterogeneous%20GNNs-E10098?style=flat-square" />
     </td>
   </tr>
   <tr>
@@ -127,7 +140,29 @@ Throughout my academic journey and professional engagements, I have focused on s
 
 ---
 
-### 🛰️ 2. [AI-Driven CanSat Microclimate Monitoring & Anomaly Detection](https://github.com/robiultamim/AI-Driven-CanSat-Microclimate-Monitoring)
+### 🔬 2. [QAF-Net: Brain Tumor MRI Classification on Edge Devices](https://github.com/robiultamim/QAF-Net-Brain-Tumor-MRI-Classification)
+> **Quantization-Aware Federated Learning with Site-Local Normalization for TinyML Clinical Neuroimaging**  
+> *Developed in the Department of Computer Science & Engineering, United International University*
+- Formulated **QAF-Net**, uniting post-training INT8 quantization residual regularization and leave-one-site-out federated aggregation across disparate hospital cohorts (China, Bangladesh).
+- Uncovered and decontaminated a critical **55.2% near-duplicate leakage in widely used Kaggle benchmarks**, proving true cross-scanner generalization.
+- Delivered an ultra-compact **606 KB INT8 quantized model** fitting in `<1 MB SRAM/Flash` with **94.7% accuracy** and negligible **0.15-point quantization loss**.
+- Implemented **Grad-CAM interpretability** to validate anatomical localization of tumor pathology on edge-rendered predictions.
+- **Tech Stack:** `Python`, `TensorFlow / Keras`, `TensorFlow Lite (INT8)`, `Federated Learning (FedAvg/FedProx/FedBN)`, `OpenCV`, `NumPy`, `LaTeX`
+
+---
+
+### ☁️ 3. [Intelligent Cloud Misconfiguration Detection and Automated Remediation](https://github.com/robiultamim/Intelligent-Cloud-Misconfiguration-Detection-and-Automated-Remediation)
+> **Multi-Domain DevSecOps Framework: AST Feature Extraction, Heterogeneous GNNs & Calibrated ML-LLM Triage**  
+> *Complete IEEE Camera-Ready Publication Assets, Overleaf Package & Defense Viva Guide*
+- **Dense 64-D AST Feature Engine:** Projects heterogeneous YAML/JSON manifests into a unified numerical feature space modeling privilege boundaries, RBAC bindings, and IAM trust scopes.
+- **Relational Threat Graph (R-GCN):** Unifies decoupled manifests into a directed threat graph to detect multi-hop lateral privilege escalation chains missed by traditional linters.
+- **Cost-Optimized ML-LLM Triage:** Sigmoid-calibrated Random Forest resolves $>90\%$ of manifests locally in $<2\text{ ms}$, escalating only uncertain edge cases to LLM Chain-of-Thought reasoning (**slashing API costs by 92%**).
+- **Closed-Loop Sandbox Remediation:** Pairs TreeSHAP explainability with compiler verification sandboxing to guarantee 100% syntactically valid YAML automated fixes.
+- **Tech Stack:** `Python 3.10+`, `PyTorch Geometric (R-GCN)`, `Scikit-Learn`, `TreeSHAP`, `YAML / AST`, `Kubernetes`, `AWS IAM / SAM`, `LaTeX (IEEEtran)`
+
+---
+
+### 🛰️ 4. [AI-Driven CanSat Microclimate Monitoring & Anomaly Detection](https://github.com/robiultamim/AI-Driven-CanSat-Microclimate-Monitoring)
 > **Aerospace Sensing, Telemetry & Multi-Source Data Fusion Framework**
 - Designed an airborne CanSat payload equipped with **BME680**, **MQ-135**, GPS, and a 6-DOF IMU driven by a **Teensy 4.1 / ESP32** controller.
 - Engineered point-to-point **XBee wireless telemetry** with **94%–98% Packet Delivery Ratio (PDR)** up to 1 km.
@@ -137,7 +172,7 @@ Throughout my academic journey and professional engagements, I have focused on s
 
 ---
 
-### ⚡ 3. [Unravel — AI-Powered Enterprise Agile Project Management Platform](https://github.com/robiultamim/Unravel-AI-Project-Management-System)
+### ⚡ 5. [Unravel — AI-Powered Enterprise Agile Project Management Platform](https://github.com/robiultamim/Unravel-AI-Project-Management-System)
 > **Enterprise-Grade Full-Stack Management & Organizational Coordination Suite**
 - **AI Task Decomposition:** Integrates **Groq Cloud LLaMA-3.1-8B** to break down massive deliverables into actionable numbered subtasks in under 120 words.
 - **Skill-Based Allocation Engine:** Algorithmic task recommendation matching employee technical proficiencies (`beginner` to `expert`) and active workload queues.
@@ -146,7 +181,7 @@ Throughout my academic journey and professional engagements, I have focused on s
 
 ---
 
-### 🛡️ 4. [Smart Independent Living Assistant — IoT Elderly Safety System](https://github.com/robiultamim/IoT-Elderly-Care-System)
+### 🛡️ 6. [Smart Independent Living Assistant — IoT Elderly Safety System](https://github.com/robiultamim/IoT-Elderly-Care-System)
 > **Integrated Multi-Safety Embedded IoT Prototype for Senior Care**  
 > *Developed by Team Micro Minds | Microprocessor & Microcontroller Lab*
 - **Automated Medicine Cabinet:** DS3231 RTC synchronized SG90 servo latch with 5–10 min dosage compliance windows and missed-dose alerts.
@@ -158,16 +193,7 @@ Throughout my academic journey and professional engagements, I have focused on s
 
 ---
 
-### 🎓 5. [Student Room Rental & Roommate Seeking System](https://github.com/robiultamim/Student-Room-Rental-System)
-> **Campus Accommodation Discovery & Peer Roommate Matching Web Platform**
-- Tailored for university students relocating to Madani Avenue near UIU campus.
-- Features dual-role onboarding (Students vs. Landlords), detailed apartment amenity audits (CCTV, lift, tiled washrooms, service charges in BDT), and dark/light mode toggles.
-- Implements an academic peer-matching board filtering by department, completed trimesters, and living habits.
-- **Tech Stack:** `HTML5`, `CSS3 (Flexbox/Grid)`, `JavaScript (ES6+)`, `Bootstrap 4`, `SVG Animations`
-
----
-
-### 🤝 6. [Research Collaboration Platform (RCP)](https://github.com/robiultamim/RCP-Research-Collaboration-Platform)
+### 🤝 7. [Research Collaboration Platform (RCP)](https://github.com/robiultamim/RCP-Research-Collaboration-Platform)
 > **Advanced Object-Oriented Programming (AOOP) Capstone Web Platform**
 - Designed for academic researchers, supervisors, and students to coordinate proposals, project milestones, and paper submissions.
 - Built with **Spring Boot**, **Spring Data JPA**, and **Spring Security** with role-based access control and persistent relational storage.
@@ -175,11 +201,20 @@ Throughout my academic journey and professional engagements, I have focused on s
 
 ---
 
-### 🚗 7. [ParkMate — Smart Peer-to-Peer Parking Management System](https://github.com/robiultamim/ParkMate-A-Smart-Peer-To-Peer-Parking-System)
+### 🚗 8. [ParkMate — Peer-to-Peer Smart Parking Platform](https://github.com/robiultamim/ParkMate-A-Peer-To-Peer-Parking-Soluation)
 > **Urban Mobility & Shared Economy Parking Platform**
 - Connects vehicle drivers seeking parking spots with local property owners having vacant spaces.
 - Designed high-fidelity prototypes in Figma and implemented interactive web interfaces with role-based navigation and booking workflows.
 - **Tech Stack:** `HTML5`, `CSS3`, `JavaScript`, `Figma (UI/UX Prototyping)`
+
+---
+
+### 🎓 9. [Student Room Rental & Roommate Seeking System](https://github.com/robiultamim/Student-Room-Rental-System)
+> **Campus Accommodation Discovery & Peer Roommate Matching Web Platform**
+- Tailored for university students relocating to Madani Avenue near UIU campus.
+- Features dual-role onboarding (Students vs. Landlords), detailed apartment amenity audits (CCTV, lift, tiled washrooms, service charges in BDT), and dark/light mode toggles.
+- Implements an academic peer-matching board filtering by department, completed trimesters, and living habits.
+- **Tech Stack:** `HTML5`, `CSS3 (Flexbox/Grid)`, `JavaScript (ES6+)`, `Bootstrap 4`, `SVG Animations`
 
 ---
 
